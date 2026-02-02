@@ -24,17 +24,27 @@ Contraintes
 
 ## Matériel utilisés
 | **Composant** | **Référence** |
-| :-------- | --------------------------------------------------------------- |
+| :-------- | :-------- |
 | Composant 1 | référence 1 |
-| 2 | 2 |
-| 3 | 3 |
-| 4 | 4|
-| 5 | 5|
-| 6 | 6 |
+| Composant 2 | 2 |
+| Composant 3 | 3 |
+| Composant 4 | 4 |
+
 ## Architecture PCB
-### Prototype
+
+### Prototype:
+* PCB Editor link
+* Other ressources
+
 ## Journal de Bord du projet 
-| **Séance ** | **Avancement** |
+| **Séance** | **Avancement** |
 | :-------- | -------- |
 | Séance 1 | TEXT |
 ## Répartition des Tâches
+| **Nom Prénom** | **Tâche** |
+| :-------- | :-------- |
+| **TRITON Kylian** | TEXT |
+| **RIEU Pierric** | TEXT |
+| **BAILLEUL Sara** | TEXT |
+| **LEIRAS Clara** | TEXT |
+| **GOMRI Samuel** | TEXT |
