@@ -39,7 +39,7 @@ Projet de 1ère année ENSEA sur un strobe
 ## Journal de Bord du projet 
 | **Séance** | **Avancement** |
 | :-------- | -------- |
-| Séance 1 | * Choix du projet * Mise en place de l'architecture Git |
+| Séance 1 | Choix du projet, Mise en place de l'architecture Git |
 ## Répartition des Tâches
 | **Nom Prénom** | **Tâche** |
 | :-------- | :-------- |
