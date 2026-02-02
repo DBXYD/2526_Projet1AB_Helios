@@ -8,7 +8,7 @@ Projet de 1ère année ENSEA sur un strobe
 * GOMRI Samuel
 
 ## Cahier des charges
-Project scénique à LED
+**Project scénique à LED**
 * Strobe RGBW haute puissance (100 W minimum)
 * Pilotage DMX512 (standard éclairage)
 * Modes :
@@ -16,7 +16,7 @@ Project scénique à LED
     * Strobe (fréquence, intensité)
 * Sécurité thermique + électrique
 
-Contraintes
+**Contraintes**
 * Alimentation secteur
 * Fiabilité (usage scène)
 * Dissipation thermique sérieuse
