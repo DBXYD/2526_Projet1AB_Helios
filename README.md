@@ -22,7 +22,7 @@ Projet de 1ère année ENSEA sur un strobe
 * Dissipation thermique sérieuse
 * Respect du DMX (isolation, timing)
 
-## Matériel utilisés
+## Matériels utilisés
 | **Composant** | **Référence** |
 | :-------- | :-------- |
 | Composant 1 | référence 1 |
