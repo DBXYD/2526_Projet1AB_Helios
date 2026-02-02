@@ -21,3 +21,20 @@ Contraintes
 * Fiabilité (usage scène)
 * Dissipation thermique sérieuse
 * Respect du DMX (isolation, timing)
+
+## Matériel utilisés
+| **Composant** | **Référence** |
+| :-------- | -------- |
+| Composant 1 | référence 1 |
+| 2 | 2 |
+| 3 | 3 |
+| 4 | 4|
+| 5 | 5|
+| 6 | 6 |
+## Architecture PCB
+### Prototype
+## Journal de Bord du projet 
+| **Séance ** | **Avancement** |
+| :-------- | -------- |
+| Séance 1 | TEXT |
+## Répartition des Tâches
