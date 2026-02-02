@@ -1,2 +1,2 @@
 # 1ere séance
-Choix du projet
+## Choix du projet
