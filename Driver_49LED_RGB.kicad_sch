@@ -1,0 +1,2012 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "203893c8-9260-4358-8705-a2164bb17db0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "LM3404MA:LM3404MA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LM3404MA"
+				(at -12.7 -19.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LM3404MA:SOIC127P599X175-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "42-V 1.0-A constant current buck LED driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOIC-8 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LM3404MAX/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LM3404MA_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 15.24)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "DIM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "RON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 257.175 107.315)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "283861d3-f93a-4029-8c01-880673518ee7")
+	)
+	(junction
+		(at 257.175 104.775)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ac53cb9-2758-41fb-ae7e-d29548cf920c")
+	)
+	(no_connect
+		(at 69.215 107.95)
+		(uuid "2d168e65-2dd0-4411-ac43-cd0d0a8aa63a")
+	)
+	(no_connect
+		(at 69.215 41.91)
+		(uuid "3215dbba-07b0-4140-a266-37126fc403f8")
+	)
+	(no_connect
+		(at 69.215 154.94)
+		(uuid "34a8dda9-d09c-49ab-ab52-61b896396ad8")
+	)
+	(no_connect
+		(at 69.215 102.87)
+		(uuid "3acf1b2f-1c6c-463f-8f49-0470f0078ba3")
+	)
+	(no_connect
+		(at 69.215 160.02)
+		(uuid "50aa4d9b-cb4e-4801-ac45-9c7cfd860d10")
+	)
+	(no_connect
+		(at -120.015 -61.595)
+		(uuid "6925fba8-6a01-443a-b187-5160c03027de")
+	)
+	(no_connect
+		(at 69.85 162.56)
+		(uuid "9a345317-95f2-448c-a3ec-3b5be3dc1e33")
+	)
+	(no_connect
+		(at 69.215 44.45)
+		(uuid "a94bcc1f-73bd-4c28-b528-6620272fb230")
+	)
+	(no_connect
+		(at 69.215 49.53)
+		(uuid "cbeb7cef-f56f-4006-b58f-d25d06587229")
+	)
+	(no_connect
+		(at 69.215 52.07)
+		(uuid "dbe7ee00-c789-401b-b8b1-3248ba545468")
+	)
+	(no_connect
+		(at 69.215 152.4)
+		(uuid "ef293c24-2401-4d4d-9789-fb5b3885f0a8")
+	)
+	(no_connect
+		(at 69.215 100.33)
+		(uuid "f5978f0e-e282-4512-85ba-22eb2334e1ce")
+	)
+	(no_connect
+		(at 69.215 110.49)
+		(uuid "f82e6b45-0be4-45ad-a07a-eb973d705240")
+	)
+	(wire
+		(pts
+			(xy 104.775 36.83) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0ddd99-11e5-4df8-9ca3-422a6d1a4740")
+	)
+	(wire
+		(pts
+			(xy 104.775 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6c4b4d-6082-4356-9956-114e1b2c2631")
+	)
+	(wire
+		(pts
+			(xy 257.175 102.235) (xy 257.175 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116fe904-cc6e-4ceb-b4a7-5ee865c4f150")
+	)
+	(wire
+		(pts
+			(xy 229.235 104.775) (xy 257.175 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2d3c2a-1d07-4a86-998f-00c3ce794d2f")
+	)
+	(wire
+		(pts
+			(xy 67.31 46.99) (xy 69.215 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b1013b-e91a-4bff-a5c6-f4a005313b49")
+	)
+	(wire
+		(pts
+			(xy 108.585 104.775) (xy 108.585 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf75bb0-1e9d-42e9-aba4-16b610d7ca93")
+	)
+	(wire
+		(pts
+			(xy 104.775 152.4) (xy 166.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7057d874-ac99-4cbc-8a32-993f3d3d3071")
+	)
+	(wire
+		(pts
+			(xy 229.235 102.235) (xy 257.175 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780e9b2d-8f32-41c3-a0d9-afd907020f7e")
+	)
+	(wire
+		(pts
+			(xy 107.95 36.83) (xy 107.95 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a767660-ae94-4b95-8c8c-30b427300520")
+	)
+	(wire
+		(pts
+			(xy 257.175 104.775) (xy 257.175 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870e5293-a9c6-4f27-bcc5-7053400d3831")
+	)
+	(wire
+		(pts
+			(xy 104.775 41.91) (xy 167.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2557ec-2bdd-485b-b19e-86b4b4da3a38")
+	)
+	(wire
+		(pts
+			(xy 107.95 147.32) (xy 107.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93623dec-05c4-478e-b614-01ce8d8ea5ee")
+	)
+	(wire
+		(pts
+			(xy 257.175 107.315) (xy 257.175 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ac9c16-abc0-468b-bdd1-3e0b56fa6a5c")
+	)
+	(wire
+		(pts
+			(xy 108.585 104.775) (xy 187.96 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a899847f-9df5-4116-b51c-4aa84bdc04fc")
+	)
+	(wire
+		(pts
+			(xy 167.64 41.91) (xy 167.64 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4288b77-ded5-42d9-894b-ff102195aeaa")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.235) (xy 187.96 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d61008-50c9-489c-bb70-128cf43c2d2a")
+	)
+	(wire
+		(pts
+			(xy 104.775 147.32) (xy 107.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0926537-68fa-45e3-a1f7-5461ceae939a")
+	)
+	(wire
+		(pts
+			(xy 229.235 107.315) (xy 257.175 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e834de73-8c8e-4593-8aa7-b860b8f1d8fa")
+	)
+	(wire
+		(pts
+			(xy 166.37 107.315) (xy 187.96 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f415dd6d-5b6d-4337-a119-759d433de1a6")
+	)
+	(wire
+		(pts
+			(xy 107.95 95.25) (xy 107.95 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49d24b2-7bf7-42d2-bf72-92abf7bee472")
+	)
+	(wire
+		(pts
+			(xy 108.585 100.33) (xy 104.775 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b5a4a3-d617-432a-bf25-e76e6e88ece6")
+	)
+	(wire
+		(pts
+			(xy 166.37 152.4) (xy 166.37 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6ad196-de42-4bb7-a651-d2d650a1ea81")
+	)
+	(label "R_49_Cathode"
+		(at 229.235 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d4445b2-720b-4d00-a4a9-8ee681f01267")
+	)
+	(label "G_49_Cathode"
+		(at 229.235 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5433bf86-7872-4640-9e5a-4f717e80a2d1")
+	)
+	(label "G_49_Anode"
+		(at 172.085 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90428084-35ca-4240-987e-5bc02a8fe1a6")
+	)
+	(label "B_49_Cathode"
+		(at 229.235 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cec6cbaa-19fd-43a8-941e-cc0fd3e1b4cf")
+	)
+	(label "B_49_Anode"
+		(at 172.085 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6a0daab-2c87-4b50-916f-3fde37c7d86f")
+	)
+	(label "R_49_Anode"
+		(at 172.085 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc9c84ca-8746-45b3-b8b2-c1c2ccd14c44")
+	)
+	(hierarchical_label "DIM_LED_B"
+		(shape input)
+		(at 69.215 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23980f4b-ee5c-4904-a977-fd24ff8ca848")
+	)
+	(hierarchical_label "DIM_LED_R"
+		(shape input)
+		(at 67.31 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52ea0964-92a3-4de5-8e19-26b8de9698f8")
+	)
+	(hierarchical_label "DIM_LED_G"
+		(shape input)
+		(at 69.215 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97d07145-f9c7-4509-9aba-bd45dcf9599f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.175 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e29b3c9-5041-4669-ba80-4de8aff714b5")
+		(property "Reference" "#PWR03"
+			(at 257.175 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.175 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.175 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.175 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.175 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "172c390f-306b-4bbf-b740-296c6bbab5a2")
+		)
+		(instances
+			(project ""
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 107.95 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee0ba34-8700-48f2-b590-406210acf479")
+		(property "Reference" "#PWR013"
+			(at 107.95 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 107.95 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef7533b-9d49-4d7b-9001-870da5f77d6e")
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 107.95 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52434f35-4999-40c5-839f-de5a0f0b62be")
+		(property "Reference" "#PWR02"
+			(at 107.95 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 107.95 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65a8c509-19b9-404a-af0e-0f65a16d696e")
+		)
+		(instances
+			(project ""
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM3404MA:LM3404MA")
+		(at 86.995 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73844d2f-1b22-4f54-91fa-85e184a00a80")
+		(property "Reference" "B1"
+			(at 86.995 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3404MA"
+			(at 86.995 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LM3404MA:SOIC127P599X175-8N"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "42-V 1.0-A constant current buck LED driver"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Texas Instruments"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM3404MAX/NOPB"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 86.995 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7b1cff1-f9d8-4a2c-8a38-c29f5bb16805")
+		)
+		(pin "8"
+			(uuid "7168b080-3b09-4699-a578-51a0f8588be7")
+		)
+		(pin "7"
+			(uuid "76989679-be28-47f1-84e9-8e882784a656")
+		)
+		(pin "5"
+			(uuid "2777503c-95ac-4682-a538-0c97dfa52ac1")
+		)
+		(pin "2"
+			(uuid "b5d98b9a-073a-440b-a82d-97540ca57132")
+		)
+		(pin "1"
+			(uuid "a09cd4aa-4de9-47e1-b969-73b6e7f9250a")
+		)
+		(pin "4"
+			(uuid "8810c3ef-e989-4515-8170-0e7ad6085796")
+		)
+		(pin "6"
+			(uuid "2833dffe-814f-4441-bbf4-c15463b11ab6")
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "B1")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "B2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 107.95 94.615 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7904ed13-a07f-4ce4-8cd7-612ddf516de4")
+		(property "Reference" "#PWR011"
+			(at 107.95 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 107.95 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f9b51be-a46f-445c-a9bc-397d7e5779f1")
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM3404MA:LM3404MA")
+		(at 86.995 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab6785b-975f-40fb-8ee9-90bf6189e710")
+		(property "Reference" "G1"
+			(at 86.995 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3404MA"
+			(at 86.995 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LM3404MA:SOIC127P599X175-8N"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "42-V 1.0-A constant current buck LED driver"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Texas Instruments"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM3404MAX/NOPB"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 86.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec42b07e-ae6d-496a-9b97-f757810bb55b")
+		)
+		(pin "8"
+			(uuid "7d32c846-c0f7-4dda-88a9-e8d3e4e1f53c")
+		)
+		(pin "7"
+			(uuid "cc340448-02f6-46da-8936-5da4ff9ea2ec")
+		)
+		(pin "5"
+			(uuid "2ea86464-fc70-4fba-8788-e3cbb2fb82ce")
+		)
+		(pin "2"
+			(uuid "c3526636-ed8c-4573-b1c6-bd7347001b19")
+		)
+		(pin "1"
+			(uuid "4f276a9a-ad30-4992-ae1c-630222d8f71c")
+		)
+		(pin "4"
+			(uuid "e9384987-2c1d-4c1d-a875-e5a1647d6703")
+		)
+		(pin "6"
+			(uuid "d802e5e8-f46d-4b66-9716-16acf22b445d")
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "G1")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "G2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.775 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a932a487-d913-4715-bcf5-af8a4362c938")
+		(property "Reference" "#PWR07"
+			(at 104.775 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.775 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.775 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.775 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e320dace-3ebb-4fe1-9882-6825591c44a2")
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.775 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c398b646-aecb-4b07-a4bd-6f1594f074ff")
+		(property "Reference" "#PWR09"
+			(at 104.775 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.775 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.775 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.775 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c5d380e-8ef9-4a29-9e6a-ac85db2b1907")
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM3404MA:LM3404MA")
+		(at 86.995 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2232dfb-a7a0-457c-9a8d-164acfe4f85b")
+		(property "Reference" "R1"
+			(at 86.995 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3404MA"
+			(at 86.995 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LM3404MA:SOIC127P599X175-8N"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "42-V 1.0-A constant current buck LED driver"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Texas Instruments"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM3404MAX/NOPB"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM3404MAX/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 86.995 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1ae17687-5782-4ef5-bf09-a63d4fc9fc5f")
+		)
+		(pin "8"
+			(uuid "3ecb3ce1-3543-4984-afdb-c973e9b78663")
+		)
+		(pin "7"
+			(uuid "2c5c2068-1274-48c0-8759-6b80341d737c")
+		)
+		(pin "5"
+			(uuid "f0f82a79-c7c7-45ef-bec9-cdf1d7900e58")
+		)
+		(pin "2"
+			(uuid "19462492-28f1-4d57-b2cf-fbef13d32bd8")
+		)
+		(pin "1"
+			(uuid "234394ab-5556-47c7-839a-225c15e21add")
+		)
+		(pin "4"
+			(uuid "3fd25c4f-2cba-4532-93b4-20fe975f846c")
+		)
+		(pin "6"
+			(uuid "3d2367bc-d0f8-4505-af95-7c6bc1d377eb")
+		)
+		(instances
+			(project ""
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.775 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffa9ee02-a8a6-485e-9dd5-ca4504c152a3")
+		(property "Reference" "#PWR01"
+			(at 104.775 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.775 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.775 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.775 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c9b6b02-6312-41c2-abd7-fdc015e697ea")
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 97.79)
+		(size 41.275 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65753c4c-5183-4c6a-803b-ae0cfb108c1d")
+		(property "Sheetname" "7x7led"
+			(at 187.96 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "7x7led.kicad_sch"
+			(at 187.96 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B_49_Anode" input
+			(at 187.96 107.315 180)
+			(uuid "95ed5c03-7661-4f50-8197-d9443a077556")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G_49_Anode" input
+			(at 187.96 104.775 180)
+			(uuid "c3ab433f-8340-4491-879e-4ce2d12fe1e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_49_Anode" input
+			(at 187.96 102.235 180)
+			(uuid "d6ea2dd2-7d4e-4678-aab5-6365b4152cd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B_49_Cathode" input
+			(at 229.235 107.315 0)
+			(uuid "153b56e5-c8cc-4060-93ef-874c7cb1fff6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G_49_Cathode" input
+			(at 229.235 104.775 0)
+			(uuid "9fa96c7e-4f1b-4b8d-abe9-a53da296ba1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R_49_Cathode" input
+			(at 229.235 102.235 0)
+			(uuid "a9f9055f-0fdf-4d3c-8393-102ab22308ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/93cc850d-0597-4e9c-bfa1-45ee0cb8f793"
+					(page "2")
+				)
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a/cd432545-6c8a-488b-8408-878f6a39660f"
+					(page "11")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,158 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 86.995 50.165)
+		(size 33.02 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93cc850d-0597-4e9c-bfa1-45ee0cb8f793")
+		(property "Sheetname" "Driver_49LED_RGB_1"
+			(at 86.995 49.4534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver_49LED_RGB.kicad_sch"
+			(at 86.995 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIM_LED_R" input
+			(at 86.995 57.15 180)
+			(uuid "90a90629-90f8-40c3-815a-417b92ef699e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIM_LED_B" input
+			(at 86.995 68.58 180)
+			(uuid "fb44ec84-490e-4686-811c-19d7dbb1dfdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIM_LED_G" input
+			(at 86.995 63.5 180)
+			(uuid "1fabb45c-49bd-4a7e-9637-5628c8288fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.995 81.915)
+		(size 33.02 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd432545-6c8a-488b-8408-878f6a39660f")
+		(property "Sheetname" "Driver_49LED_RGB_2"
+			(at 86.995 81.2034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver_49LED_RGB.kicad_sch"
+			(at 86.995 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIM_LED_R" input
+			(at 86.995 87.63 180)
+			(uuid "cc9ca46a-8283-4924-a7f7-c793510e4aab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIM_LED_B" input
+			(at 86.995 100.33 180)
+			(uuid "bae52e8a-6374-4ffa-a164-2a4a49388237")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIM_LED_G" input
+			(at 86.995 93.98 180)
+			(uuid "c36ff274-a44e-4b27-8a8e-f38fdde8dea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Projet_elec"
+				(path "/dfa00354-f9a5-42a1-9e70-1a18b6c2ad9a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
