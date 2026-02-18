@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "LM3404MA")(type "KiCad")(uri "C:/Users/clara/Downloads/LM3404MA (1)/LM3404MA.kicad_sym")(options "")(descr ""))
-  (lib (name "WL-SFTW_5050_PLCC6")(type "KiCad")(uri "C:/Users/clara/Downloads/WL-SFTW_5050_PLCC6/WL-SFTW_5050_PLCC6.kicad_sym")(options "")(descr ""))
+  (lib (name "LM3404MA")(type "KiCad")(uri "C:/Users/Admin/OneDrive/Bureau/ENSEA/S6/Projet_Helios/2526_Projet1AB_Helios/Composants_Helios_KiCad/LM3404MA/LM3404MA.kicad_sym")(options "")(descr ""))
+  (lib (name "WL-SFTW_5050_PLCC6")(type "KiCad")(uri "C:/Users/Admin/OneDrive/Bureau/ENSEA/S6/Projet_Helios/2526_Projet1AB_Helios/Composants_Helios_KiCad/LED/WL-SFTW_5050_PLCC6.kicad_sym")(options "")(descr ""))
 )

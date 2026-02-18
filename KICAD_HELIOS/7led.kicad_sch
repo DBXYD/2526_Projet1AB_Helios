@@ -58,37 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMD-6 Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
+			(property "DigiKey_Part_Number" "732-12000-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -108,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "150505M173300"
+			(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
 				(at 0 0 0)
 				(effects
 					(font
@@ -118,7 +88,17 @@
 					(hide yes)
 				)
 			)
-			(property "Availability" "In Stock"
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-6 Würth Elektronik"
 				(at 0 0 0)
 				(effects
 					(font
@@ -129,6 +109,16 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "150505M173300"
 				(at 0 0 0)
 				(effects
 					(font
@@ -743,16 +733,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 54.61) (xy 64.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219f7560-8b4f-4634-a4b7-0c569c58a6e5")
-	)
-	(wire
-		(pts
 			(xy 64.77 68.58) (xy 64.77 77.47)
 		)
 		(stroke
@@ -773,6 +753,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 130.81) (xy 59.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3084b572-e8ef-4b0f-944d-cffc63eeb1b0")
+	)
+	(wire
+		(pts
 			(xy 64.77 130.81) (xy 64.77 140.97)
 		)
 		(stroke
@@ -783,13 +773,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.81) (xy 54.61 140.97)
+			(xy 59.69 54.61) (xy 59.69 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56f43c20-1d70-4fe3-b101-fe8d6964bc90")
+		(uuid "48d47a47-3fdf-49f8-8ff5-c55c7925d5ff")
 	)
 	(wire
 		(pts
@@ -809,7 +799,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6f2b5f1b-481b-4458-8028-52edfd5926d6")
+		(uuid "6b4eb427-f1e6-465e-8bb5-970caa0138ae")
 	)
 	(wire
 		(pts
@@ -823,13 +813,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 130.81) (xy 59.69 140.97)
+			(xy 54.61 130.81) (xy 54.61 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80c8de49-4495-4931-bfa9-c21a258827ff")
+		(uuid "7f334f91-7570-46df-b957-30952e2309f2")
 	)
 	(wire
 		(pts
@@ -913,6 +903,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 54.61) (xy 64.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e658b1b7-0cd1-4895-aa97-b91ed56ae39d")
+	)
+	(wire
+		(pts
 			(xy 54.61 100.33) (xy 54.61 109.22)
 		)
 		(stroke
@@ -920,16 +920,6 @@
 			(type default)
 		)
 		(uuid "e70b3b71-3753-42a5-a3b0-16b0783a1858")
-	)
-	(wire
-		(pts
-			(xy 59.69 54.61) (xy 59.69 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f086dd1a-dd3a-4e85-bcb9-c8d2bfa98a31")
 	)
 	(wire
 		(pts
@@ -1009,25 +999,16 @@
 	)
 	(symbol
 		(lib_id "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6")
-		(at 59.69 146.05 90)
+		(at 59.69 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4626513b-a5ff-45a8-8e36-bcbd42210fc4")
-		(property "Reference" "D9"
-			(at 45.72 144.7406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WL-SFTW_5050_PLCC6"
-			(at 68.58 144.7405 90)
+		(uuid "26ae3707-c692-4e48-b90b-80b833cc3aa1")
+		(property "Reference" "D59"
+			(at 68.58 125.6905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,8 +1016,17 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6"
-			(at 59.69 146.05 0)
+		(property "Value" "WL-SFTW_5050_PLCC6"
+			(at 68.58 128.2305 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED:WL-SFTW_5050_PLCC6"
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 146.05 0)
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1045,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 146.05 0)
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,38 +1053,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
-			(at 59.69 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-			(at 59.69 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-6 Würth Elektronik"
-			(at 59.69 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 59.69 146.05 0)
+		(property "DigiKey_Part_Number" "732-12000-1-ND"
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1064,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 59.69 146.05 0)
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,8 +1073,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "150505M173300"
-			(at 59.69 146.05 0)
+		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,8 +1083,18 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 59.69 146.05 0)
+		(property "MF" "Würth Elektronik"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-6 Würth Elektronik"
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1104,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 59.69 146.05 0)
+			(at 59.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,295 +1113,90 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "a10d7b77-7fa9-4c2d-96a9-e21e1ce457fd")
+		(property "MP" "150505M173300"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "4ad96d12-07dc-49df-b0e8-5570662c5558")
-		)
-		(pin "1"
-			(uuid "e3910b98-350d-4bab-9049-e8d06b1437b4")
-		)
-		(pin "2"
-			(uuid "06bedcc0-8970-4240-a7a1-7ba99f5e5e21")
+			(uuid "fe2210b7-c503-459e-bf9b-f18ed742cf5c")
 		)
 		(pin "5"
-			(uuid "26749ff7-db31-47c3-9e44-ca1bc04a4dd9")
+			(uuid "1abf230c-cae9-44c2-b0a4-bacd699b328e")
 		)
 		(pin "4"
-			(uuid "bf66080a-1a86-49c2-b4c3-d052f2e1c200")
+			(uuid "8a25593a-d66c-41b6-bd45-02d60b6c1134")
+		)
+		(pin "1"
+			(uuid "f19076f0-0d95-429a-af09-d431180076d5")
+		)
+		(pin "3"
+			(uuid "2198fe44-d615-45f7-b486-10a37b023e0e")
+		)
+		(pin "2"
+			(uuid "45e362ce-279b-4650-bf4f-842c3042c6ab")
 		)
 		(instances
 			(project "hell"
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D37")
+					(reference "D63")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D23")
+					(reference "D61")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D30")
+					(reference "D62")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D9")
+					(reference "D59")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D44")
+					(reference "D64")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D51")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D86")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D72")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D79")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D58")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D93")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D100")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
 					(reference "D65")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6")
-		(at 59.69 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "650d753c-aba2-4706-b0d0-108e54286a35")
-		(property "Reference" "D7"
-			(at 45.72 112.9906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WL-SFTW_5050_PLCC6"
-			(at 68.58 112.9905 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-6 Würth Elektronik"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150505M173300"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "981d79ef-41ca-4356-8c54-8bc24a95ba55")
-		)
-		(pin "6"
-			(uuid "91cc1aee-3318-401b-bc72-68daae737a46")
-		)
-		(pin "1"
-			(uuid "d9d6dd8a-aae8-40eb-8aff-92f4ee2b73f3")
-		)
-		(pin "2"
-			(uuid "d22253e3-0d24-40de-a830-8090414ea9de")
-		)
-		(pin "5"
-			(uuid "19524e13-0ad5-4e8b-8506-2d1f954dc8b3")
-		)
-		(pin "4"
-			(uuid "f970796a-bfc6-4f52-80e6-8ac6a26dc778")
-		)
-		(instances
-			(project "hell"
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D35")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D28")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D42")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D49")
-					(unit 1)
-				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D14")
+					(reference "D60")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D84")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
 					(reference "D70")
 					(unit 1)
 				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D68")
+					(unit 1)
+				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D77")
+					(reference "D69")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D56")
+					(reference "D66")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D91")
+					(reference "D71")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D98")
+					(reference "D72")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D63")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -1446,18 +1211,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b12c4fd7-120e-45af-a40b-ac46d5090320")
-		(property "Reference" "D4"
-			(at 45.72 64.7306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WL-SFTW_5050_PLCC6"
-			(at 68.58 64.7305 90)
+		(uuid "4a6ba98c-5ff0-48c0-8b7e-fd3cc70b4c92")
+		(property "Reference" "D3"
+			(at 68.58 63.4605 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1221,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6"
+		(property "Value" "WL-SFTW_5050_PLCC6"
+			(at 68.58 66.0005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED:WL-SFTW_5050_PLCC6"
 			(at 59.69 66.04 0)
 			(effects
 				(font
@@ -1493,37 +1258,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-6 Würth Elektronik"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
+		(property "DigiKey_Part_Number" "732-12000-1-ND"
 			(at 59.69 66.04 0)
 			(effects
 				(font
@@ -1543,183 +1278,18 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "150505M173300"
+		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
 			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 59.69 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ae09ed32-c927-4523-b5f8-c21c46bc0097")
-		)
-		(pin "6"
-			(uuid "cef180db-6000-4ed1-8215-b15874e15451")
-		)
-		(pin "1"
-			(uuid "c2aa7fc2-d6d3-4e9c-a517-ab16e20e988a")
-		)
-		(pin "2"
-			(uuid "16f02438-1bc3-46ca-b41a-4cb254dbfc03")
-		)
-		(pin "5"
-			(uuid "89db9098-c4b3-480d-a9d1-a3c497e83774")
-		)
-		(pin "4"
-			(uuid "18743c3c-1c7b-40ac-b34a-31fcdbbe924f")
-		)
-		(instances
-			(project "hell"
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D32")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D18")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D39")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D46")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D81")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D67")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D74")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D53")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D88")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D95")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6")
-		(at 59.69 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b16cd9e0-b097-427b-90eb-ca6cf13133a6")
-		(property "Reference" "D5"
-			(at 45.72 81.2406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WL-SFTW_5050_PLCC6"
-			(at 68.58 81.2405 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-			(at 59.69 82.55 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,47 +1299,7 @@
 			)
 		)
 		(property "Package" "SMD-6 Würth Elektronik"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150505M173300"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 59.69 82.55 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1309,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 59.69 82.55 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,80 +1318,90 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "18cb98df-f6fb-4e27-828f-e21ac8796fb6")
+		(property "MP" "150505M173300"
+			(at 59.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "10ee90d6-6c09-4bdb-9981-030450059de2")
-		)
-		(pin "1"
-			(uuid "4a10e1d5-777f-48b6-a931-689eda752649")
-		)
-		(pin "2"
-			(uuid "255124b5-12ed-418d-a3f9-bb435207e2d1")
+			(uuid "18a14dc4-f5ad-49b6-badb-4bd28cc3fba7")
 		)
 		(pin "5"
-			(uuid "11bf60d5-a6f0-41e6-abe8-2bed93aea11a")
+			(uuid "609efa30-c0cd-4e8d-bd94-2e406e715a31")
 		)
 		(pin "4"
-			(uuid "6e9bb45a-4099-4d12-ab6c-772bdf62ab7f")
+			(uuid "fd3cb4cc-b659-4e28-bb39-ac9bbdd2294b")
+		)
+		(pin "1"
+			(uuid "237c0ea4-8ad0-44e2-97fc-8a66c5903c6c")
+		)
+		(pin "3"
+			(uuid "87c7260f-5143-4489-b635-f8dee4a833ef")
+		)
+		(pin "2"
+			(uuid "57af0831-64cd-4177-82c8-25722df379a5")
 		)
 		(instances
 			(project "hell"
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D33")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D26")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
 					(reference "D5")
 					(unit 1)
 				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D3")
+					(unit 1)
+				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D40")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D47")
+					(reference "D9")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D12")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D82")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D68")
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D75")
+					(reference "D13")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D54")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D89")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D96")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D61")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -1876,18 +1416,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d0236a4e-cf54-4969-8651-396a1b9bad38")
-		(property "Reference" "D3"
-			(at 45.72 50.7606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WL-SFTW_5050_PLCC6"
-			(at 68.58 50.7605 90)
+		(uuid "5a73ed6e-d93e-4084-9313-3e66bf3c1514")
+		(property "Reference" "D87"
+			(at 68.58 49.4905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1426,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6"
+		(property "Value" "WL-SFTW_5050_PLCC6"
+			(at 68.58 52.0305 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED:WL-SFTW_5050_PLCC6"
 			(at 59.69 52.07 0)
 			(effects
 				(font
@@ -1923,37 +1463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
-			(at 59.69 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-			(at 59.69 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-6 Würth Elektronik"
-			(at 59.69 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
+		(property "DigiKey_Part_Number" "732-12000-1-ND"
 			(at 59.69 52.07 0)
 			(effects
 				(font
@@ -1973,7 +1483,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "150505M173300"
+		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
 			(at 59.69 52.07 0)
 			(effects
 				(font
@@ -1983,7 +1493,17 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "MF" "Würth Elektronik"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-6 Würth Elektronik"
 			(at 59.69 52.07 0)
 			(effects
 				(font
@@ -2003,295 +1523,90 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "843ebd8f-4253-4e6c-9f29-05e528b1acd5")
+		(property "MP" "150505M173300"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "b369de3f-e73e-45dd-9294-097c3b8fe8ab")
+			(uuid "9c174305-583f-4e01-a9eb-f72ed71de35b")
 		)
 		(pin "1"
-			(uuid "f7b105c5-a394-4a2c-b93b-42913484602b")
-		)
-		(pin "2"
-			(uuid "1b1c9f0a-e6c2-4371-ba68-c18e00831b93")
+			(uuid "aac5753f-10f9-46c2-89ac-fc82b7884f03")
 		)
 		(pin "5"
-			(uuid "086841f3-b96c-4c3f-82f9-bae4da97a79d")
+			(uuid "b27d19f8-84ca-4261-bf41-79a3640f397c")
+		)
+		(pin "3"
+			(uuid "9ae455b0-b752-481d-bdd8-61341419a028")
+		)
+		(pin "2"
+			(uuid "d6a95dff-fbd9-44ec-af1d-61cd6095e068")
 		)
 		(pin "4"
-			(uuid "dc65e4a5-8d42-4f0f-823e-fe1120394c5b")
+			(uuid "67ab7f6c-9e01-4938-8fd4-756cdc1cd7de")
 		)
 		(instances
-			(project "hell"
+			(project ""
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D31")
+					(reference "D91")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D17")
+					(reference "D89")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D24")
+					(reference "D90")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D38")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D45")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D80")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D66")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D73")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D52")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
 					(reference "D87")
 					(unit 1)
 				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D94")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6")
-		(at 59.69 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0a5a1f2-6387-4c7f-abda-9eb90dc548f0")
-		(property "Reference" "D8"
-			(at 45.72 126.9606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WL-SFTW_5050_PLCC6"
-			(at 68.58 126.9605 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-6 Würth Elektronik"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "150505M173300"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0a6e5ee7-e8c2-4aee-8be0-bc7c7e81f7bf")
-		)
-		(pin "6"
-			(uuid "b942e3cc-1ddf-463b-a588-8e448a8c1af4")
-		)
-		(pin "1"
-			(uuid "1ca263e9-e504-44f9-8688-4c97f04b70ce")
-		)
-		(pin "2"
-			(uuid "2e3046e5-3673-4892-aca7-41e1662f8a24")
-		)
-		(pin "5"
-			(uuid "5c01b615-971f-4920-b6cb-ff55f34fcd03")
-		)
-		(pin "4"
-			(uuid "ce4d72a0-54bb-406d-b77f-a578c08df77a")
-		)
-		(instances
-			(project "hell"
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D36")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D29")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D43")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D50")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D85")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D71")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D78")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D57")
-					(unit 1)
-				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
 					(reference "D92")
 					(unit 1)
 				)
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D93")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
+					(reference "D88")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
+					(reference "D98")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D96")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D97")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D94")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
 					(reference "D99")
 					(unit 1)
 				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D100")
+					(unit 1)
+				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D64")
+					(reference "D95")
 					(unit 1)
 				)
 			)
@@ -2306,18 +1621,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc618b6c-7da2-44b5-8bfe-cd0ed9b96950")
-		(property "Reference" "D6"
-			(at 45.72 96.4806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WL-SFTW_5050_PLCC6"
-			(at 68.58 96.4805 90)
+		(uuid "8d5fdadd-ac52-4326-8fe0-d7d1afc68696")
+		(property "Reference" "D31"
+			(at 68.58 95.2105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +1631,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6"
+		(property "Value" "WL-SFTW_5050_PLCC6"
+			(at 68.58 97.7505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED:WL-SFTW_5050_PLCC6"
 			(at 59.69 97.79 0)
 			(effects
 				(font
@@ -2353,37 +1668,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
-			(at 59.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
-			(at 59.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-6 Würth Elektronik"
-			(at 59.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
+		(property "DigiKey_Part_Number" "732-12000-1-ND"
 			(at 59.69 97.79 0)
 			(effects
 				(font
@@ -2403,7 +1688,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "150505M173300"
+		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
 			(at 59.69 97.79 0)
 			(effects
 				(font
@@ -2413,7 +1698,17 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "MF" "Würth Elektronik"
+			(at 59.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-6 Würth Elektronik"
 			(at 59.69 97.79 0)
 			(effects
 				(font
@@ -2433,80 +1728,705 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "d1485689-a792-4522-a658-82e2c3ce1ab6")
+		(property "MP" "150505M173300"
+			(at 59.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "9b02b0c7-8db7-49aa-bdc0-da5b4b5fb7c1")
-		)
-		(pin "1"
-			(uuid "96db4e66-9ebc-42c7-8585-45a30823e35d")
-		)
-		(pin "2"
-			(uuid "0a08591d-f6f6-4544-a023-0253f105e3c4")
+			(uuid "166601dc-9725-4f46-931e-51bf885003da")
 		)
 		(pin "5"
-			(uuid "6b62c1f8-8532-41b0-b764-1322e1be6324")
+			(uuid "519af366-db04-4f2e-861e-d8e2db7810bc")
 		)
 		(pin "4"
-			(uuid "03a5e24a-835f-4338-ac3b-c5bda1f27945")
+			(uuid "3315ffdc-9895-4d42-9f47-354d5832e771")
+		)
+		(pin "1"
+			(uuid "ce6b1388-10c8-490a-9b1b-59bcfe5e22be")
+		)
+		(pin "3"
+			(uuid "53a5abab-6c10-429f-8cbc-469f4641bbfa")
+		)
+		(pin "2"
+			(uuid "cb762f25-1530-49d0-935b-aafc1d506430")
 		)
 		(instances
 			(project "hell"
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D34")
+					(reference "D35")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D20")
+					(reference "D33")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D27")
+					(reference "D34")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D6")
+					(reference "D31")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D41")
+					(reference "D36")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D48")
+					(reference "D37")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D13")
+					(reference "D32")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
-					(reference "D83")
+					(reference "D42")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
-					(reference "D69")
+					(reference "D40")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
-					(reference "D76")
+					(reference "D41")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
-					(reference "D55")
+					(reference "D38")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
-					(reference "D90")
+					(reference "D43")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
-					(reference "D97")
+					(reference "D44")
 					(unit 1)
 				)
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
-					(reference "D62")
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6")
+		(at 59.69 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d750469-6d38-4e9f-8c23-124664ca7756")
+		(property "Reference" "D17"
+			(at 68.58 79.9705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WL-SFTW_5050_PLCC6"
+			(at 68.58 82.5105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED:WL-SFTW_5050_PLCC6"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-12000-1-ND"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-6 Würth Elektronik"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150505M173300"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c6074791-ff83-4d60-b0ce-e022bc73d675")
+		)
+		(pin "5"
+			(uuid "19ad16fe-62a3-4801-91b9-a0c28bdc6c86")
+		)
+		(pin "4"
+			(uuid "bf5f2b29-b716-4ea7-b715-1b7458674587")
+		)
+		(pin "1"
+			(uuid "98a7fcf8-f008-4547-8482-fb9c475c2503")
+		)
+		(pin "3"
+			(uuid "99cef52e-39ae-43c4-a080-425472cee1a0")
+		)
+		(pin "2"
+			(uuid "346d3e8f-1e86-44b6-9e0c-245b0ffbff25")
+		)
+		(instances
+			(project "hell"
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6")
+		(at 59.69 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c69e1274-eabd-4684-8ea2-8df239edfe3e")
+		(property "Reference" "D73"
+			(at 68.58 143.4705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WL-SFTW_5050_PLCC6"
+			(at 68.58 146.0105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED:WL-SFTW_5050_PLCC6"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-12000-1-ND"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-6 Würth Elektronik"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150505M173300"
+			(at 59.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fef2c61d-bfe3-4d14-bbf1-3de85200571f")
+		)
+		(pin "5"
+			(uuid "9d9e9990-0007-4da1-b048-717a9481c066")
+		)
+		(pin "4"
+			(uuid "6ed90350-bf7d-4766-ba8e-9d7ae722acf9")
+		)
+		(pin "1"
+			(uuid "54d67ac9-f4b6-46ef-8eb8-f0bc51c16c67")
+		)
+		(pin "3"
+			(uuid "340a8e6c-7ac9-4244-a46e-93668d09a73a")
+		)
+		(pin "2"
+			(uuid "ce1cd710-8275-470a-809c-7e2e47341742")
+		)
+		(instances
+			(project "hell"
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
+					(reference "D77")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D75")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D76")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D73")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
+					(reference "D78")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D79")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
+					(reference "D74")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
+					(reference "D84")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D82")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D83")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D80")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
+					(reference "D85")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D86")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WL-SFTW_5050_PLCC6:WL-SFTW_5050_PLCC6")
+		(at 59.69 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc12c7ae-f560-47b8-868b-a16b5c02d155")
+		(property "Reference" "D45"
+			(at 68.58 111.7205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WL-SFTW_5050_PLCC6"
+			(at 68.58 114.2605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED:WL-SFTW_5050_PLCC6"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-12000-1-ND"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 6-SMD, J-Lead"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-6 Würth Elektronik"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/150505M173300/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "150505M173300"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b6ff5536-527d-4d3b-a471-fc90b1c157fe")
+		)
+		(pin "5"
+			(uuid "dbbe9077-c7a9-42c8-9ba0-4fb0bd457fc2")
+		)
+		(pin "4"
+			(uuid "2b85f8f8-f7d5-4371-812e-bdb9d655f5f2")
+		)
+		(pin "1"
+			(uuid "a915f885-10c3-4b88-9e8e-f652958f219a")
+		)
+		(pin "3"
+			(uuid "8dc8557a-9f27-44e2-878f-7cbfa48082cb")
+		)
+		(pin "2"
+			(uuid "01414fa7-411b-4ced-8167-90743d997ca8")
+		)
+		(instances
+			(project "hell"
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
+					(reference "D49")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D45")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
+					(reference "D50")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D51")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/196fb166-c317-4fa3-bb50-f94620c2a0ec/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/29aedae2-5e60-4017-9451-b927c43c2372"
+					(reference "D56")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/3193d4e9-939a-4fff-943b-ba3a34c7483e"
+					(reference "D54")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/9da72763-cb3f-4df3-ba22-62e23ed44205"
+					(reference "D55")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/bf4c2949-592b-40db-b399-b7e60db090b7"
+					(reference "D52")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/c7efbd60-564f-49fa-9380-bc9163c45498"
+					(reference "D57")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/cc616a53-fa43-4249-b886-ef8d80548736"
+					(reference "D58")
+					(unit 1)
+				)
+				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1/2392d797-1cf7-46a0-aa35-967812b1cc2f/65753c4c-5183-4c6a-803b-ae0cfb108c1d/ebb8f1a6-154b-4b8d-9ce3-4e5458fd3ea3"
+					(reference "D53")
 					(unit 1)
 				)
 			)
