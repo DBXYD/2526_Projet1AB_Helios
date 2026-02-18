@@ -17,4 +17,4 @@ Pour le soudage il faut obligatoirement faire un schéma à partir des connectio
 
 **Auteur :** Triton Kylian
 **Date :** 19 Février 2026
-**Statut :** En attente de validation des empreintes
+**Statut :** En attente de validation des empreintes et du schéma dans l'intégralité
