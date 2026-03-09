@@ -3940,12 +3940,6 @@
 		(uuid "56426cb6-e612-4f55-8ec0-c021e0d85d3b")
 	)
 	(junction
-		(at 26.67 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5845d8e5-cb7a-4ab8-a27f-d909aa0bd6ca")
-	)
-	(junction
 		(at 213.36 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5184,16 +5178,6 @@
 			(type default)
 		)
 		(uuid "c9e1e7b6-d65a-455a-8e44-011ee699a031")
-	)
-	(wire
-		(pts
-			(xy 26.67 90.17) (xy 26.67 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf39137-81ef-40f5-a749-dad07282663b")
 	)
 	(wire
 		(pts
@@ -8589,72 +8573,6 @@
 			(project "hell"
 				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 26.67 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8890f07b-c1b0-472f-a80c-b5d1d9c34d6f")
-		(property "Reference" "#PWR07"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 26.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fe52cef-cebc-459a-8544-86a934e61c50")
-		)
-		(instances
-			(project "hell"
-				(path "/c000bab8-8bf2-446c-9c19-e9a7fa645af1"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
