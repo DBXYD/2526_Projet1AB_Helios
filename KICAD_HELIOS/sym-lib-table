@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "WL-SFTW_5050_PLCC6")(type "KiCad")(uri "${KIPRJMOD}/Composants_Helios_KiCad/LED/WL-SFTW_5050_PLCC6.kicad_sym")(options "")(descr ""))
   (lib (name "LM3404MA")(type "KiCad")(uri "${KIPRJMOD}/Composants_Helios_KiCad/LM3404MA/LM3404MA.kicad_sym")(options "")(descr ""))
+  (lib (name "WPME-FDSM_SIP-3")(type "KiCad")(uri "C:/Users/sblik/Desktop/WPME-FDSM_SIP-3/WPME-FDSM_SIP-3.kicad_sym")(options "")(descr ""))
+  (lib (name "AZ1117CH2-3.3TRG1")(type "Legacy")(uri "C:/Users/sblik/Desktop/AZ1117CH2-3.3TRG1.lib")(options "")(descr ""))
 )

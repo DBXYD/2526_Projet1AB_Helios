@@ -2709,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LM3404MA"
+		(property "MPN" "LM3404MA"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -3113,6 +3113,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "744032180"
+			(at 129.54 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91aef6e1-92db-4358-ab77-af5dd7d5aa7d")
 		)
@@ -3248,6 +3257,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 124.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "744032180"
+			(at 124.46 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,6 +3797,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "744032180"
+			(at 114.3 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)

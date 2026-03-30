@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/Composants_Helios_KiCad/LED")(options "")(descr ""))
   (lib (name "LM3404MA")(type "KiCad")(uri "${KIPRJMOD}/Composants_Helios_KiCad/LM3404MA")(options "")(descr ""))
+  (lib (name "AZ1117CH2-3.3TRG1")(type "KiCad")(uri "${KIPRJMOD}/Composants_Helios_KiCad/AZ1117CH2-3.3TRG1")(options "")(descr ""))
+  (lib (name "WPME-FDSM_SIP-3")(type "KiCad")(uri "${KIPRJMOD}/Composants_Helios_KiCad/WPME-FDSM_SIP-3")(options "")(descr ""))
 )
