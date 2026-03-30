@@ -56,12 +56,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "LDO Voltage Regulators LDO BJT HiCurr SOT223 T&R 4K"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -76,16 +77,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-33TRG1?qs=lQAVKuKFhkLc7jCxso2G3w%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "LDO Voltage Regulators LDO BJT HiCurr SOT223 T&R 4K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8058,7 +8049,7 @@
 				)
 			)
 		)
-		(property "Value" "R-78B5.0-2.0"
+		(property "Value" "173950536"
 			(at 199.39 20.32 0)
 			(effects
 				(font
