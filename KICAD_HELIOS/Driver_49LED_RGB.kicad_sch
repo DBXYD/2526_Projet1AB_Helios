@@ -2238,7 +2238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 107.95 0)
 			(effects
 				(font
@@ -3078,7 +3078,7 @@
 				)
 			)
 		)
-		(property "Value" "68u"
+		(property "Value" "18u"
 			(at 129.54 34.29 90)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 160.02 0)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 49.53 0)
 			(effects
 				(font

@@ -4914,6 +4914,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 110.49) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a51f5a-9161-4506-9c07-6e1c7d75c602")
+	)
+	(wire
+		(pts
 			(xy 220.98 100.33) (xy 220.98 101.6)
 		)
 		(stroke
@@ -5031,6 +5041,16 @@
 			(type default)
 		)
 		(uuid "71611fe2-43b6-400b-98e3-c7c066e90bee")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bcbebf-90eb-42ff-bd76-651e004fd552")
 	)
 	(wire
 		(pts
@@ -5824,6 +5844,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 113.03) (xy 76.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7bdddd9-e22b-4acc-b9b3-d30a4fe26f30")
+	)
+	(wire
+		(pts
 			(xy 119.38 148.59) (xy 115.57 148.59)
 		)
 		(stroke
@@ -5896,6 +5926,28 @@
 			)
 		)
 	)
+	(global_label "LEDR2"
+		(shape input)
+		(at 76.2 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0faba4b1-c7a3-4e40-902c-ad47c547d229")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.1118 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LEDG1"
 		(shape input)
 		(at 30.48 31.75 180)
@@ -5940,6 +5992,28 @@
 			)
 		)
 	)
+	(global_label "LEDG2"
+		(shape input)
+		(at 76.2 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28f7f697-be99-4d6f-9e32-d4b3cc2bbca5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.1118 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_1"
 		(shape input)
 		(at 40.64 128.27 180)
@@ -5975,28 +6049,6 @@
 		(uuid "4a00bfcc-b61c-4a41-8746-2abf6da84fc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.4542 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEDG2"
-		(shape input)
-		(at 76.2 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c47910d-23db-43ab-b02b-25c3a2d787d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.1118 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,28 +6102,6 @@
 			)
 		)
 	)
-	(global_label "LEDR1"
-		(shape input)
-		(at 76.2 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54b2217d-81df-4c8d-b419-743b71881105")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.1118 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWDIO"
 		(shape input)
 		(at 76.2 133.35 0)
@@ -6085,6 +6115,28 @@
 		(uuid "54d78b68-de6e-43c8-87c9-b658b0be6f6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.0514 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEDG1"
+		(shape input)
+		(at 83.82 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b42cda3-e09a-4af1-a7ad-87b05836b7bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7318 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,28 +6164,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEDR2"
-		(shape input)
-		(at 76.2 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6376b337-ea65-4585-8c9b-b7ec6928c93d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.1118 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6314,28 +6344,6 @@
 			)
 		)
 	)
-	(global_label "LEDB1"
-		(shape input)
-		(at 76.2 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82bfb44a-ff0f-4ac7-b8b1-d752576c9dcc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.1118 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOUTTON_1"
 		(shape input)
 		(at 207.01 101.6 180)
@@ -6354,28 +6362,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEDG1"
-		(shape input)
-		(at 76.2 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a49a083-e3ae-4747-84e6-02f8b5fa640f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.1118 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6402,9 +6388,9 @@
 			)
 		)
 	)
-	(global_label "LEDB2"
+	(global_label "LEDB1"
 		(shape input)
-		(at 76.2 113.03 0)
+		(at 83.82 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6412,9 +6398,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9a7895f4-5e00-48b0-83d8-dd04e9f993cb")
+		(uuid "ac1d29e9-a0e5-4dcb-95a0-627c5ae50b21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.1118 113.03 0)
+			(at 92.7318 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,6 +6520,28 @@
 			)
 		)
 	)
+	(global_label "LEDR1"
+		(shape input)
+		(at 83.82 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce113bcc-9f53-4cf7-9bd4-791566429df1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7318 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_1"
 		(shape input)
 		(at 144.78 119.38 180)
@@ -6574,6 +6582,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEDB2"
+		(shape input)
+		(at 76.2 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9feac8d-0911-489d-9ba6-3163014f4f20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.1118 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7320,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.67 97.79 0)
 			(effects
 				(font
@@ -7563,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -7630,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -7827,7 +7857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -8030,7 +8060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 100.33 0)
 			(effects
 				(font
@@ -8229,7 +8259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 119.38 0)
 			(effects
 				(font
@@ -9038,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 129.54 0)
 			(effects
 				(font
@@ -9627,7 +9657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -10582,7 +10612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.29 105.41 0)
 			(effects
 				(font
@@ -11804,7 +11834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 101.6 0)
 			(effects
 				(font
@@ -11871,7 +11901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.35 96.52 0)
 			(effects
 				(font
