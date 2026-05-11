@@ -1,9 +1,9 @@
-Journal de bord :
+## Journal de bord :
 # 1ere séance : 02/02/2026
 -	Présentation du projet et des objectifs
-- Choix du projet : Strobe lumineux
+-   Choix du projet : Strobe lumineux
 -	Prise en main du projet
--	Prise en main de GitHub
+-	Prise en main de GitHub et mise en place de l'architecture
 -	Recherche de composants : plusieurs LEDs
 # 2e séance : 09/02/2026
 -	Recherche de Datasheet
@@ -34,6 +34,11 @@ Journal de bord :
 -	Commande du PCB
 -	Codes pour le Software
 # 8e séance : 04/05/2026
+-	Recherche des composants commandés à l'ENSEA
+-	Avancement sur le code
 # 9e séance : 11/05/2026
+-	Fablab ouvert: Soudage
+-	Mise à jour du Github 
+-	Avancement sur le code
 # 10e séance : 18/05/2026
-
+-	Présentation du projet 1A
