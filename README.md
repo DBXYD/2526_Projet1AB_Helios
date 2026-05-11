@@ -39,7 +39,7 @@ Projet de 1ère année ENSEA sur un stroboscobe RGB
 | Ecran OLED | [OLED Dipslay](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/SBC-OLED01_Datasheet_2022-01-06.pdf) |
 | Alimentation | 24V / 5A | 
 | Résistances | 2 x 1 kΩ ; 5 x 10 kΩ ; 2 x 1,6 kΩ ; 6 x 100 kΩ |
-| Inductances | 6 x 18 uF |
+| Inductances | 6 x 18 uH |
 | Condensateurs | 18 x 100 nF ; 2 x 1 uF ; 3 x 10 uF ; 1 x 22 uF ; 2 x 10 nF |
 | LEDs SMD | 2 x [LED_0805_2012Metric](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/LED_0805_2012Metric.pdf) |
 | Boutons poussoirs | 3 x Bouton |
