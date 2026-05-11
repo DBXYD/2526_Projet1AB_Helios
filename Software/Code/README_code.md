@@ -12,7 +12,6 @@ Projet de 1ere année ENSEA sur un strobe
 * Code pour allumer la led (Red) Rouge
 * Code pour allumer la led (Green) Vert
 * Code pour allumer la led (Blue) Bleu
-* Code pour allumer la led (White) Blanc
 * Code pour Dimmer(intensité)
 * Code pour Shutter (fréquence)
 

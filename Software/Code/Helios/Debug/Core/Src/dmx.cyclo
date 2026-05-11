@@ -1,0 +1,5 @@
+../Core/Src/dmx.c:15:6:DMX_Init	1
+../Core/Src/dmx.c:20:6:DMX_StartReception	1
+../Core/Src/dmx.c:25:9:DMX_GetChannel	2
+../Core/Src/dmx.c:32:9:DMX_NewFrameAvailable	1
+../Core/Src/dmx.c:37:6:DMX_ClearFrameFlag	1

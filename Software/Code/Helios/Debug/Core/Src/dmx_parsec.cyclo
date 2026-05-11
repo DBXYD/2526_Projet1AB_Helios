@@ -1,0 +1,2 @@
+../Core/Src/dmx_parsec.c:15:6:DMX_ParseFrame	1
+../Core/Src/dmx_parsec.c:30:19:DMX_GetParsedData	1
