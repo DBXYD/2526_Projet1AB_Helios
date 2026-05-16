@@ -42,9 +42,9 @@ Projet de 1ère année ENSEA sur un stroboscobe RGB
 | Inductances | 6 x 18 uH |
 | Condensateurs | 18 x 100 nF ; 2 x 1 uF ; 3 x 10 uF ; 1 x 22 uF ; 2 x 10 nF |
 | LEDs SMD | 2 x [LED_0805_2012Metric](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/LED_0805_2012Metric.pdf) |
-| Boutons poussoirs | 3 x [Bouton ] (https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/Datasheets%20du%20projet/6x6_mm_sw_switches.pdf)|
+| Boutons poussoirs | 3 x [Bouton ](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/Datasheets%20du%20projet/6x6_mm_sw_switches.pdf)|
 | Puce MAX487 | [Puce](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/MAX487-MAX491.pdf) |
-| Connecteur AMASS | [Connecteur 1] (https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/Datasheets%20du%20projet/XT30U-M_AMASS_Datasheet.pdf)|
+| Connecteur AMASS | [Connecteur 1](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/Datasheets%20du%20projet/XT30U-M_AMASS_Datasheet.pdf)|
 | Connecteur PinHeader | [Connecteur 2] ()|
 
 ## Organisation du projet
