@@ -28,7 +28,7 @@ Projet de 1ère année ENSEA sur un stroboscobe RGB
 ## Matériels utilisés
 | **Composant** | **Référence** |
 | :-------- | :-------- |
-| LEDs 98x3 (98 pour chaque couleur) | [150505M173300](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/LED_150505M173300.pdf) |
+| LEDs 98 (x3 couleurs) | [150505M173300](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/LED_150505M173300.pdf) |
 | 6 Driver | [LM3404](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/lm3404.pdf) |
 | Microcontrolleur | [STM32F103C6T6A LQFP-48](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/stm32f103c6.pdf) |
 | DMX512 | Mâle: [NC3MAAH](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/nc3maah(DMX512M).pdf) Femelle: [NC3FAAH](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/nc3faah(DMX512F).pdf) |
@@ -42,13 +42,15 @@ Projet de 1ère année ENSEA sur un stroboscobe RGB
 | Inductances | 6 x 18 uH |
 | Condensateurs | 18 x 100 nF ; 2 x 1 uF ; 3 x 10 uF ; 1 x 22 uF ; 2 x 10 nF |
 | LEDs SMD | 2 x [LED_0805_2012Metric](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/LED_0805_2012Metric.pdf) |
-| Boutons poussoirs | 3 x Bouton |
+| Boutons poussoirs | 3 x [Bouton ] (https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/Datasheets%20du%20projet/6x6_mm_sw_switches.pdf)|
 | Puce MAX487 | [Puce](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/MAX487-MAX491.pdf) |
+| Connecteur AMASS | [Connecteur 1] (https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/datasheet/Datasheets%20du%20projet/XT30U-M_AMASS_Datasheet.pdf)|
+| Connecteur PinHeader | [Connecteur 2] ()|
 
 ## Organisation du projet
 
 ### Architecture PCB:
-* **Alimentation** : Power Module, LDO, Buck
+* **Alimentation** : Power Module WPME-FSDM, AZ1117CH2-TRG1
 * **Contrôle** : Microcontrolleur avec interface OLED
 * **Pilotage LEDs** : drivers pour les chaînes R, G, B (2 drivers par couleur)
 * **Protection et sécurité** : TODO (fusible, dissipateurs thermiques, diode)
@@ -65,7 +67,7 @@ Projet de 1ère année ENSEA sur un stroboscobe RGB
 | :-------- | :-------- |
 | **TRITON Kylian** | Routage, PCB, valeurs des composants, Mise à jour du Github |
 | **RIEU Pierric** | Software des drivers, PCB |
-| **BAILLEUL Sara** | Soudage, vérification des empreintes, commandes des composants |
+| **BAILLEUL Sara** | Soudage, vérification des empreintes, commande des composants |
 | **LEIRAS Clara** | TODO |
 | **GOMRI Samuel** | TODO |
 
