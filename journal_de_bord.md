@@ -37,8 +37,10 @@
 -	Recherche des composants commandés à l'ENSEA
 -	Avancement sur le code
 # 9e séance : 11/05/2026
--	Fablab ouvert: Soudage
+-	Fablab ouvert: Soudage avec pâte à braser et four ainsi que fer à souder et étain
 -	Mise à jour du Github 
 -	Avancement sur le code
 # 10e séance : 18/05/2026
+- Vérification de la présence ou non de court-circuits (avec multimètre)
+- Test des codes
 -	Présentation du projet 1A
