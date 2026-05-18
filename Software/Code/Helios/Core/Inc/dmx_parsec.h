@@ -11,11 +11,11 @@
 #include "stdint.h"
 #include "main.h"
 
-#define DMX_CH_STROBE_ENABLE    1
-#define DMX_CH_STROBE_SPEED     2
-#define DMX_CH_RED              3
-#define DMX_CH_GREEN            4
-#define DMX_CH_BLUE             5
+#define DMX_CH_STROBE_ENABLE    0
+#define DMX_CH_STROBE_SPEED     1
+#define DMX_CH_RED              2
+#define DMX_CH_GREEN            3
+#define DMX_CH_BLUE             4
 
 #define OCTET 255
 
@@ -29,6 +29,5 @@ typedef struct{
 
 void DMX_ParseFrame(void);
 DMX_ParsedData_t* DMX_GetParsedData(void);
-
 
 #endif /* INC_DMX_PARSEC_H_ */

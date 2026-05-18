@@ -22,6 +22,8 @@ uint8_t DMX_GetChannel(uint16_t channel);
 // Status
 uint8_t DMX_NewFrameAvailable(void);
 void DMX_ClearFrameFlag(void);
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
 
+void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart);
 
 #endif /* INC_DMX_H_ */

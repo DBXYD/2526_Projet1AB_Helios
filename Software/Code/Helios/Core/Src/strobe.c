@@ -16,6 +16,16 @@ static uint8_t strobe_state = ON;
 static DMX_ParsedData_t* current_data;
 
 void STROBE_Init(void){
+	/* Mise a 0 des PWM */
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 0);
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, 0);
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 0);
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, 0);
+
+    HAL_GPIO_WritePin(LedG2_GPIO_Port, LedG2_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(LedB2_GPIO_Port, LedB2_Pin, GPIO_PIN_RESET);
+
+
     /* Driver RGB 1 */
 
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
@@ -71,6 +81,12 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     if(htim->Instance == TIM3)
     {
+    	/*Traite le problème de BREAK introduit par la norme DMX512 entre 2 paquets de donnée*/
+
+    	if(current_data == NULL)
+    	        {
+    	            return;
+    	        }
         pwm_counter++;
 
         /* STROBE */
@@ -85,6 +101,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         /* SOFTWARE PWM */
 
         if(strobe_state){
+
+
             HAL_GPIO_WritePin(LedG2_GPIO_Port,LedG2_Pin,pwm_counter < current_data->green_intensity);
 
             HAL_GPIO_WritePin(LedB2_GPIO_Port,LedB2_Pin,pwm_counter < current_data->blue_intensity);

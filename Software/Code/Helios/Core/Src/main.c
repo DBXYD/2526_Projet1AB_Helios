@@ -107,6 +107,25 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /*
+	    if(DMX_NewFrameAvailable())
+	    {
+			/* TEST LED */
+	    	/*
+			HAL_GPIO_TogglePin(
+					LED1_GPIO_Port,
+					LED1_Pin
+			);
+
+	        __HAL_TIM_SET_COMPARE(
+	            &htim2,
+	            TIM_CHANNEL_1,
+	            DMX_GetChannel(1)
+	        );
+
+	        DMX_ClearFrameFlag();
+	    }*/
+
 	  if(DMX_NewFrameAvailable())
 	      {
 	          DMX_ParseFrame();
@@ -117,6 +136,7 @@ int main(void)
 
 	          DMX_ClearFrameFlag();
 	      }
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
