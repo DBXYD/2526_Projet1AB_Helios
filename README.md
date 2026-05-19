@@ -27,9 +27,8 @@ Projet de 1ère année ENSEA sur un stroboscobe RGB
 
 
 ## Présentation du projet
-* [Présentation générale](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/Presentation/Projet%201AB%20-%20H%C3%A9lios.pdf)
-* [Norme DMX512]()
-* [Présentation du Code](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/Presentation/Projet1AB_Helios_Code.pdf)
+* [Présentation Hardware](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/Presentation/Projet%201AB%20-%20H%C3%A9lios.pdf)
+* [Architecture du Code](https://github.com/DBXYD/2526_Projet1AB_Helios/blob/master/Presentation/Projet1AB_Helios_Code.pdf) (DMX 512)
 
 ## Matériels utilisés
 | **Composant** | **Référence** |
