@@ -72,7 +72,7 @@ Projet de 1ère année ENSEA sur un stroboscobe RGB
 | :-------- | :-------- |
 | **TRITON Kylian** | Schématique du PCB, Routage du PCB, Valeurs des composants (fichier python), Mise à jour du Github, Recherche des composants |
 | **RIEU Pierric** | Software des drivers (intégralité des codes), PCB |
-| **BAILLEUL Sara** | Soudage, Vérification des empreintes sur PCB, Commande des composants et bon de commande du PCB, Recherche des composants (soudage et datasheet), Mise à jour du GitHub |
+| **BAILLEUL Sara** | Soudage, Vérification des empreintes sur PCB, Commande des composants et bon de commande du PCB, Recherche des composants (soudage et datasheet), Mise à jour du GitHub, Diagramme Hardware |
 | **LEIRAS Clara** | LEDs (Schématique du PCB), Soudage, Recherche des composants (datasheet) |
 | **GOMRI Samuel** | Recherche des composants |
 
